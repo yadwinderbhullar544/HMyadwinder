@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_margin="20dp">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="30px"
+        android:minHeight="30px"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/linearLayout2">
+        
+            <ListView 
+            android:minWidth="30px"
+            android:minHeight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Lv_HighScore"
+            android:layout_weight="100" android:layout_margin="20dp"   />
+    
+    <Button
+            android:text="Home Page" android:background="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Home" android:layout_margin="20dp"/>
+       
+    
+    </LinearLayout>
+</LinearLayout>
